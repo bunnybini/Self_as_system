@@ -147,7 +147,7 @@ section {
   width: 485px;
   height: 215px;
   background-color: transparent;
-  background-image: url("./images/button.png");
+  background-image: url("/Self_as_system/images/button.png");
   background-size: cover; /* Make sure the background image covers the button */
   border: none;
   cursor: pointer;
