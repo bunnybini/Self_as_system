@@ -1,0 +1,82 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", verdana;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-image: url(/Self_As_System/images/background.png);
+  transition: 1s;
+}
+
+h1 {
+  color: rgb(96, 52, 143);
+  text-align: center;
+  font-size: 50px;
+}
+
+h2 {
+  color: #a665ba;
+  font-size: 20px;
+}
+
+h3 {
+  color: rgb(96, 52, 143);
+  text-align: center;
+  font-size: 30px;
+}
+
+.pargraph {
+  width: 100%;
+  max-width: 1000px;
+  line-height: 2.5;
+}
+
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+nav {
+  color: white;
+  list-style: none;
+  z-index: 2;
+  position: relative;
+  padding: 4rem 8rem;
+  display: flex;
+  justify-content: space-between;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(96, 52, 143);
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+}
+
+li a:hover {
+  color: #807dc5;
+}
+
+i {
+  font-weight: lighter;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

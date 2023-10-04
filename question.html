@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Start</title>
+    <link rel="stylesheet" href="/Self_As_System/css/quesion.css" />
+    <script defer src="/Self_As_System/js/question.js"></script>
+  </head>
+  <body>
+    <div class="flex-container">
+    <div class="container top_ani" id="quiz-container">
+      <h2 id="question"></h2>
+
+      <ul id="answers">
+        <li>
+          <button></button>
+        </li>
+        <li>
+          <button></button>
+        </li>
+        <li>
+          <button></button>
+        </li>
+      </ul>
+      <button id="next-btn" class="btn-next">Next</button>
+    </div>
+
+    <div class="contextcontainer">
+      <ul id="contexts">
+        <!-- Add a placeholder for the initial text -->
+        <h3>Initial Text</h3>
+      </ul>
+    </div>
+  </div>
+
+    <div class="container hide" id="guess-container">
+      <h2>Guess Your Stress Level</h2>
+      <input
+        type="number"
+        id="guess-input"
+        placeholder="Enter your guess (0-100)"
+      />
+      <button id="guess-btn" class="btn-guess-deco">Guess</button>
+    </div>
+
+    <div class="container hide" id="result-container">
+      <h2 id="result"></h2>
+    </div>
+    <div class="endingBox hide">
+      <button id="restart-btn" class="btn endingBtn"> <a href="/Self_As_System/context.html">Redo</a></span
+        ></button>
+      <button id="details-btn" class="btn endingBtn"><a href="/Self_As_System/research.html">More Details</a></button>
+    </div>
+  </body>
+</html>
+
