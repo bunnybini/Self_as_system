@@ -31,7 +31,7 @@ body {
   text-align: center;
   width: 100vw;
   height: 40vh;
-  background-image: url(/images/Startpage.png);
+  background-image: url(./images/Startpage.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -60,7 +60,7 @@ body {
   width: 750px;
   height: 490px;
   background-color: transparent;
-  background-image: url(/images/Tv.png);
+  background-image: url(./images/Tv.png);
   background-repeat: no-repeat;
   padding: 10px;
   border-radius: 5px;

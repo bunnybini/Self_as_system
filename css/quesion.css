@@ -46,7 +46,7 @@ body {
   width: 100vw;
   height: 40vh;
   /* background-color: bisque; */
-  background-image: url(/images/Startpage.png);
+  background-image: url(./images/Startpage.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -95,7 +95,7 @@ input {
   width: 195px;
   height: 60px;
   background-color: transparent;
-  background-image: url(/images/smallbutton.png);
+  background-image: url(./images/smallbutton.png);
   background-repeat: no-repeat;
   /* padding: 20px; */
 }
@@ -108,7 +108,7 @@ input {
   width: 195px;
   height: 60px;
   background-color: transparent;
-  background-image: url(/images/smallbutton.png);
+  background-image: url(./images/smallbutton.png);
   background-repeat: no-repeat;
 }
 
