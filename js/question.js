@@ -4,65 +4,65 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       question: "When should I wake up?",
       options: [
-        { text: "8:00 AM", percentage: 100 },
-        { text: "11:00 AM", percentage: 85 },
-        { text: "01:00 PM", percentage: 60 },
+        { text: "8:00 AM", percentage: 80 },
+        { text: "11:00 AM", percentage: 95 },
+        { text: "01:00 PM", percentage: 100 },
       ],
     },
     {
-      question: "My brain is awake, but not my body. What should I do?",
+      question: "What should I do first?",
       options: [
-        { text: "Play with the phone", percentage: 30 },
+        { text: "Check mails", percentage: 90 },
         {
-          text: "Get up",
-          percentage: 90,
+          text: "Remove makeup",
+          percentage: 40,
         },
       ],
     },
     {
-      question: "I'm out of my bed. What should I do first?",
+      question: "I'm hungry, how should I eat?",
       options: [
-        { text: "Prepare breakfast", percentage: 50 },
-        { text: "Remove makeup", percentage: 20 },
+        { text: "Cook your breakfast", percentage: 80 },
+        { text: "Eat leftovers", percentage: 20 },
       ],
     },
     {
-      question: "While I'm eating breakfast, what should I do?",
+      question: "While I'm eating breakfast, what should I watch?",
       options: [
-        { text: "Animation(20 mins)", percentage: 50 },
-        { text: "Netflix (50 mins)", percentage: 90 },
+        { text: "Animation", percentage: 50 },
+        { text: "Netflix", percentage: 90 },
         { text: "Review homework", percentage: 40 },
       ],
     },
     {
       question: "The weather is fantastic today, should I go outside?",
       options: [
-        { text: "YAY let's chill!", percentage: 50 },
-        { text: "Sure,but with computer", percentage: 20 },
-        { text: "NO!", percentage: 0 },
+        { text: "YAY let's chill!", percentage: 90 },
+        { text: "Sure,but with computer", percentage: 70 },
+        { text: "NO!", percentage: 30 },
       ],
     },
     {
       question: "What kind of song should I listen to while making 3D models?",
       options: [
-        { text: "K-pop", percentage: 0 },
-        { text: "Pop", percentage: 0 },
-        { text: "J-pop", percentage: 0 },
+        { text: "K-pop", percentage: 50 },
+        { text: "Pop", percentage: 80 },
+        { text: "J-pop", percentage: 40 },
       ],
     },
     {
       question: "It's almost 8:00 PM, but I'm craving food",
       options: [
         { text: "It's too late", percentage: 90 },
-        { text: "Spicy food", percentage: 0 },
-        { text: "Dessert", percentage: 0 },
+        { text: "Spicy food", percentage: 40 },
+        { text: "Dessert", percentage: 50 },
       ],
     },
     {
       question: "Oh my gosh..I forgot to do my landruy",
       options: [
-        { text: "Do it right now", percentage: 90 },
-        { text: "Homework first", percentage: 50 },
+        { text: "Do it right now", percentage: 100 },
+        { text: "Homework first", percentage: 70 },
       ],
     },
     {
@@ -70,31 +70,31 @@ document.addEventListener("DOMContentLoaded", function () {
       options: [
         {
           text: "Yes, you are into it",
-          percentage: 5,
+          percentage: 60,
         },
-        { text: "Give me your phone", percentage: 5 },
+        { text: "Give me your phone", percentage: 100 },
       ],
     },
     {
       question: "It's 11:59pm. Have I successfully submit my homework?",
       options: [
-        { text: "Yes!! Well done", percentage: 1 },
-        { text: "Dont know", percentage: 50 },
+        { text: "Yes!! Well done", percentage: 50 },
+        { text: "Dont know", percentage: 100 },
       ],
     },
   ];
 
   var contexts = [
-    "You woke up feeling refreshed and ready to start your day.",
-    "You're lying in bed with your brain buzzing, but your body is still asleep.",
-    "You woke up feeling refreshed and ready to start your day.",
-    "You're lying in bed with your brain buzzing, but your body is still asleep.",
-    "You woke up feeling refreshed and ready to start your day.",
-    "You're lying in bed with your brain buzzing, but your body is still asleep.",
-    "You woke up feeling refreshed and ready to start your day.",
-    "You're lying in bed with your brain buzzing, but your body is still asleep.",
-    "You woke up feeling refreshed and ready to start your day.",
-    "You're lying in bed with your brain buzzing, but your body is still asleep.",
+    "Tired and annoyed, but anxious.",
+    "Have read emails for 10 hours and haven't washed my face for 5 hours.",
+    "Hangover, hungry, and thirsty",
+    "Animation: 20 mins, Netflix: 50 mins, Review homework : 10 mins",
+    "Sunny and warm outside, with 9 hours left until the homework due time",
+    "K-pop: Dance music, J-pop: Band music, Pop: Vocal",
+    "4 hours left until the due time",
+    "I need to do my laundry, but there are 3 hours left until the due time",
+    "Depressed and sad that there's only 1 hour left",
+    "Did I finish..........?",
   ];
 
   var currentQuestionIndex = 0;
